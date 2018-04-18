@@ -1,7 +1,11 @@
 body {
 	padding: 20px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 
 }
+
 .nav-bar li {
 	display: inline-block;
 	text-decoration: none;
@@ -11,7 +15,9 @@ body {
 	padding-right: 30px;
 	text-align: center;
 }
+
 nav {
+
 }
 
 section article {
@@ -20,7 +26,40 @@ section article {
 	vertical-align: middle;
 	clear:both;
 }
+
 .vert-bar li {
 	text-decoration: none;
 	text-align: left;
+}
+
+#logo {
+	height: 130px;
+	width: 130px;
+	vertical-align: middle;
+	margin-bottom: 46px;
+}
+
+.section {
+	margin-left: 0;
+
+}
+
+.article {
+	padding-right: 40px;
+	display: inline-block;
+	width: 30%;
+}
+
+.nav-bar {
+	padding-left: 0;
+}
+
+.row{
+	height: 200px;
+}
+#nav-row {
+	margin-top: 40px;
+}
+#ban-logo {
+	text-align: center;
 }
