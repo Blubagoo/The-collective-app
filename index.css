@@ -1,5 +1,19 @@
 body {
 	padding: 20px;
+	background-image:
+    linear-gradient(
+      to right,
+      #155230,
+      #D6CC54 13%
+    );
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 80px;
 
 }
 .nav-bar li {
