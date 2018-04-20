@@ -1,0 +1,36 @@
+
+html {
+    height: 100%;
+}
+
+body {
+  padding-top:60px;
+  background-image:
+    linear-gradient(
+      to right,
+      #0C6A3C,
+      #FDE8A4 13%
+    );
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 80px;
+}
+input {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  
+}
+.input-field-text {
+  padding-right: 100px;
+}
+.mini-text{
+  font-size: 10px;
+}

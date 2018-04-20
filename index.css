@@ -13,11 +13,11 @@ body {
       #0C6A3C,
       #FDE8A4 13%
     );
-  height: 100%;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 
 }
 
@@ -42,16 +42,18 @@ section article {
 	clear:both;
 }
 
-.vert-bar li {
+.vert-nav li {
 	text-decoration: none;
 	text-align: left;
 }
 
 #logo {
-	height: 130px;
-	width: 130px;
-	vertical-align: middle;
+	height: 250px;
+	width: 250px;
 	margin-bottom: 46px;
+	position: fixed;
+	top:0;
+	left:0;
 }
 
 .section {
@@ -77,4 +79,12 @@ section article {
 }
 #ban-logo {
 	text-align: center;
+}
+.vert-nav {
+	text-decoration: none;
+	width: 11%;
+	margin-top: ;
+}
+ul li{
+	text-decoration: none;
 }
