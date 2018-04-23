@@ -24,6 +24,11 @@ input {
   text-align: center;
 }
 
+#pic-container {
+  display: flex;
+
+}
+
 form {
   text-align: center;
   
@@ -33,4 +38,31 @@ form {
 }
 .mini-text{
   font-size: 10px;
+}
+
+img {
+ margin: auto;
+
+}
+
+@media only screen and (min-width: 900px) {
+
+  .mini-text {
+    font-size: 14px;
+  }
+
+  form {
+    margin-top: 80px;
+    font-size: 30px;
+  }
+
+  label {
+    margin-right: 120px;
+  }
+  img {
+     padding-top: 150px;
+  }
+  button {
+    margin-top: 80px;
+  }
 }
