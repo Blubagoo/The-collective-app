@@ -1,21 +1,26 @@
+html {
+    height: 100%;
+}
+
 body {
 	padding: 20px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	background-image:
     linear-gradient(
       to right,
-      #155230,
-      #D6CC54 13%
+      #0C6A3C,
+      #FDE8A4 13%
     );
-  height: 100%;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 80px;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 
 }
+
 .nav-bar li {
 	display: inline-block;
 	text-decoration: none;
@@ -25,7 +30,9 @@ body {
 	padding-right: 30px;
 	text-align: center;
 }
+
 nav {
+
 }
 
 section article {
@@ -34,7 +41,50 @@ section article {
 	vertical-align: middle;
 	clear:both;
 }
-.vert-bar li {
+
+.vert-nav li {
 	text-decoration: none;
 	text-align: left;
+}
+
+#logo {
+	height: 250px;
+	width: 250px;
+	margin-bottom: 46px;
+	position: fixed;
+	top:0;
+	left:0;
+}
+
+.section {
+	margin-left: 0;
+
+}
+
+.article {
+	padding-right: 40px;
+	display: inline-block;
+	width: 30%;
+}
+
+.nav-bar {
+	padding-left: 0;
+}
+
+.row{
+	height: 200px;
+}
+#nav-row {
+	margin-top: 40px;
+}
+#ban-logo {
+	text-align: center;
+}
+.vert-nav li{
+	text-decoration: none;
+	width: 11%;
+	margin-top: ;
+}
+ul li{
+	text-decoration: none;
 }

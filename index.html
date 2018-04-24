@@ -5,18 +5,20 @@
 <head>
 	<title>The Collective App!</title>
 	<meta charset="utf-8">
-	<meta name="The Collective Bar Downtown Dothan craft beer and good food">
+	<meta name="description" content="The Collective Bar Downtown Dothan craft beer and good food">
+	<meta name="keywords" content="Dothan Bar The Collective"
 	<meta name="viewport" content="width=device-width">
-	<link href="index.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<header role="banner">
-		<div class="row">
-			<nav>
+		<div class="row" id="nav-row">
+			<nav role="navigation">
 				<div class="well">
+					<img class="pull-left" id="logo" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/22687717_1757914254505536_6484935106965178710_n.jpg?_nc_cat=0&oh=4de264694f1ee1485cfbc63617a31a57&oe=5B6C8CB4" alt="The Collective Bar Logo">
 					<ul class="nav-bar">
-						<li><h2>Beer On Tap!</h2></li>
+						<li><h2>Beer On aTap!</h2></li>
 						<li><h2>Food Menu</h2></li>
 						<li><h2>About Us</h2></li>
 						<li><h2>Directions</h2></li>
@@ -26,38 +28,60 @@
 			</nav>
 		</div>
 		<div class="col">
-			<nav>
-				<ul class="vert-nav">
+				<ul class="pull-left vert-nav well">
 					<li><h2>Beer on Tap!</h2></li>
 					<li><h2>Food Menu</h2></li>
 					<li><h2>About Us</h2></li>
 					<li><h2>Directions</h2></li>
 					<li><h2>Events</h2></li>
 				</ul>
-			</nav>
+		</div>
+		<div class="right-nav pull-right well">
+			<ul>
+				<li><h3>Contact Us!</h3></li>
+				<li><h3>Hours of Operation</h3></li>
+				<li><h3>Event Calendar</h3></li>
+			</ul>
 		</div>
 	</header>
 	<main role="main">
 		<header></header>
-		<section class="sect-1">
-			<article class="art-sect-1">
-				This is section 1 article 1
-			</article>
-			<article class="art-sect-1">
-				This is section 1 article 2
-			</article>
+		<section class="section sect-1">
+			<div class="article">
+				<label for="art-1">Type of article</label> 
+				<article class="well art-sect-1" name="art-1">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut felis quis erat fermentum ullamcorper. Duis non turpis neque. Etiam quis pulvinar ipsum. Praesent a feugiat risus, ac fermentum nulla. Ut erat turpis, iaculis sed pharetra vitae, consequat ut nisi. Phasellus rutrum finibus pulvinar. In at suscipit leo, in pulvinar nunc. Donec ipsum erat, tincidunt porttitor vulputate sit amet, pulvinar vitae justo. Phasellus consequat orci molestie risus volutpat, sit amet scelerisque tellus porttitor. Donec pulvinar sapien eu urna tincidunt laoreet. In dapibus euismod lorem, eu vestibulum justo pharetra vel. Fusce in ex ut felis tempus porttitor at a dui. Phasellus eget aliquam orci. In orci dui, pellentesque quis finibus ut, vestibulum non lorem. Vestibulum dignissim finibus ante a imperdiet. Cras vel magna eros.
+					</p>
+				</article>
+			</div>
+			<div class="article">
+				<label for="art-2">Type of article</label>
+				<article class="well art-sect-1" name="art-2">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut felis quis erat fermentum ullamcorper. Duis non turpis neque. Etiam quis pulvinar ipsum. Praesent a feugiat risus, ac fermentum nulla. Ut erat turpis, iaculis sed pharetra vitae, consequat ut nisi. Phasellus rutrum finibus pulvinar. In at suscipit leo, in pulvinar nunc. Donec ipsum erat, tincidunt porttitor vulputate sit amet, pulvinar vitae justo. Phasellus consequat orci molestie risus volutpat, sit amet scelerisque tellus porttitor. Donec pulvinar sapien eu urna tincidunt laoreet. In dapibus euismod lorem, eu vestibulum justo pharetra vel. Fusce in ex ut felis tempus porttitor at a dui. Phasellus eget aliquam orci. In orci dui, pellentesque quis finibus ut, vestibulum non lorem. Vestibulum dignissim finibus ante a imperdiet. Cras vel magna eros.
+					</p>
+				</article>
+			</div>
 		</section>
-		<section class="sect-2">
-			<article class="art-sect-2">
-				This is section 2 article 1
-			</article>
-			<article class="art-sect-2">
-				This is section 2 article 2
-			</article>
+		<section class="section sect-2">
+			<div class="article">
+				<label for="art-3">Type of article</label> 
+				<article class="well art-sect-2" name="art-3">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut felis quis erat fermentum ullamcorper. Duis non turpis neque. Etiam quis pulvinar ipsum. Praesent a feugiat risus, ac fermentum nulla. Ut erat turpis, iaculis sed pharetra vitae, consequat ut nisi. Phasellus rutrum finibus pulvinar. In at suscipit leo, in pulvinar nunc. Donec ipsum erat, tincidunt porttitor vulputate sit amet, pulvinar vitae justo. Phasellus consequat orci molestie risus volutpat, sit amet scelerisque tellus porttitor. Donec pulvinar sapien eu urna tincidunt laoreet. In dapibus euismod lorem, eu vestibulum justo pharetra vel. Fusce in ex ut felis tempus porttitor at a dui. Phasellus eget aliquam orci. In orci dui, pellentesque quis finibus ut, vestibulum non lorem. Vestibulum dignissim finibus ante a imperdiet. Cras vel magna eros.
+					</p>
+				</article>
+			</div>
+			<div class="article">
+				<label for="art-4">Type of article</label> 
+				<article class="well art-sect-2" name="art-4">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut felis quis erat fermentum ullamcorper. Duis non turpis neque. Etiam quis pulvinar ipsum. Praesent a feugiat risus, ac fermentum nulla. Ut erat turpis, iaculis sed pharetra vitae, consequat ut nisi. Phasellus rutrum finibus pulvinar. In at suscipit leo, in pulvinar nunc. Donec ipsum erat, tincidunt porttitor vulputate sit amet, pulvinar vitae justo. Phasellus consequat orci molestie risus volutpat, sit amet scelerisque tellus porttitor. Donec pulvinar sapien eu urna tincidunt laoreet. In dapibus euismod lorem, eu vestibulum justo pharetra vel. Fusce in ex ut felis tempus porttitor at a dui. Phasellus eget aliquam orci. In orci dui, pellentesque quis finibus ut, vestibulum non lorem. Vestibulum dignissim finibus ante a imperdiet. Cras vel magna eros.
+					</p>
+				</article>
+			</div>
 		</section>
+		
 	</main>
 	
-	<footer role="conteninfo"></footer>
+	<footer role="conteninfo">This is the footer</footer>
 
 	<script
   src="https://code.jquery.com/jquery-3.3.1.slim.js"
