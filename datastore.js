@@ -3,26 +3,26 @@ const BEERMENU = [
     name: "Abita Harvest Peach",
     type: "Fruit Beer",
     ABV: 4.5,
-    bitterness: "n/a"
-    brewery: "Abita Brewing Co.",
+    bitterness: "n/a",
+    brewery: "Abita Brewing Co",
     location: "California, USA",
     pint: "$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name: "Abita Harvest Strawberry",
     type: "Specialty Fruit Beer",
     ABV: "4.2% ABV",
-    bitterness: "n/a"
+    bitterness: "n/a",
     brewery: "Abita Brewing Co.",
     location: "California, USA",
-    pint: "$6.00"
-    img: 
-    alt:
-    pairing:
-  },
+    pint: "$6.00",
+    img: "",
+    alt:"",
+    pairing:""
+},
   {
     name: "Ace Pineapple",
     type: "Fruit Cider",
@@ -31,9 +31,9 @@ const BEERMENU = [
     brewery: "Ace Ciders",
     location: "California, USA",
     pint: "$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name: "Angry Orchard Crisp Apple Cider",
@@ -43,21 +43,21 @@ const BEERMENU = [
     brewery: "Angry Orchard Cider Co.",
     location: "Ohio, USA",
     pint: "$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:"",
   },
   {
     name:"Blue Moon Belgian White",
     type:"Witbier",
     ABV:"5.4% ABV",
     bitterness: "9 IBU",
-    brewery:"Blue Moon Brewing Co." 
+    brewery:"Blue Moon Brewing Co.",
     location:"Colorado, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name: "Blue Moon Mango Wheat",
@@ -67,9 +67,9 @@ const BEERMENU = [
     brewery:"Blue Moon Brewing Co.",
     location:"Colorado, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Boulevard Jam Band",
@@ -79,9 +79,9 @@ const BEERMENU = [
     brewery:"Boulevard Brewing Company",
     location:"Missouri, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Ciderboys Mad Bark",
@@ -91,9 +91,9 @@ const BEERMENU = [
     brewery:"Ciderboys Hard Cider",
     location:"Wisconsin, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Ciderboys Peach County",
@@ -103,9 +103,9 @@ const BEERMENU = [
     brewery:"Ciderboys Hard Cider",
     location:"Wisconsin, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Crazy Mountain Amber Ale",
@@ -115,21 +115,21 @@ const BEERMENU = [
     brewery:"Crazy Mountain Brewing Co.",
     location:"Colorado, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Crooked Stave Hop Savant",
     type:"Wild Specialty Beer",
     ABV:"6.7% ABV",
-    bitterness:"n/a"
-    brewery:
-    location:
+    bitterness:"n/a",
+    brewery:"",
+    location:"",
     pint:"12oz - $6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Cross-Eyed Owl Black Ale",
@@ -139,9 +139,9 @@ const BEERMENU = [
     brewery:"Cross-Eyed Owl Brewing",
     location:"Alabama, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Cross-Eyed Owl Cream Ale",
@@ -151,9 +151,9 @@ const BEERMENU = [
     brewery:"Cross-Eyed Owl Brewing",
     location:"Alabama, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Dogfish Head 60 Minute IPA",
@@ -163,9 +163,9 @@ const BEERMENU = [
     brewery:"Dogfish Head Craft Brewery",
     location:"Delaware, USA",
     pint:"$6.50",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Fairhope S\'Wheat Home",
@@ -175,9 +175,9 @@ const BEERMENU = [
     brewery:"Fairhope Brewing Co.",
     location:"Alabama, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Founders Rubaeus - Raspberry Ale",
@@ -187,9 +187,9 @@ const BEERMENU = [
     brewery:"Founders Brewing Co.",
     location:"Michegan, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Founders Sumatra Mountain Brown",
@@ -199,9 +199,9 @@ const BEERMENU = [
     brewery:"Founders Brewing Co.",
     location:"Michegan, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Funky Buddha Floridian Hefeweizen",
@@ -211,9 +211,9 @@ const BEERMENU = [
     brewery:"Funky Buddha Brewery",
     location:"Florida, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Funky Buddha Hop Gun",
@@ -223,9 +223,9 @@ const BEERMENU = [
     brewery:"Funky Buddha Brewery",
     location:"Florida, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Funky Buddha Pineapple Beach",
@@ -235,9 +235,9 @@ const BEERMENU = [
     brewery:"Funky Buddha Brewery",
     location:"Florida, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Good People Bearded Lady",
@@ -248,8 +248,8 @@ const BEERMENU = [
     location:"Alabama, USA",
     pint:"$6.00",
     img:"https://lh6.ggpht.com/8zFL0Rx8WcWux2AG7V7VGZkkRmG_52PoGOlCu_HbvLoRzxIBsQXeeU-391_pT3cy1uJvQQOZS99-7mFSorIhOjqN5oyFmQ=s150",
-    alt:
-    pairing:
+    alt:"",
+    pairing:""
   },
   {
     name:"GoodWood Hemp Gose",
@@ -258,10 +258,10 @@ const BEERMENU = [
     bitterness:"11 IBU",
     brewery:"GoodWood",
     location:"Kentucky, USA",
-    pint:"6.00"
-    img:
-    alt:
-    pairing:
+    pint:"6.00",
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Grayton 30 A Beach Blonde Ale",
@@ -271,9 +271,9 @@ const BEERMENU = [
     brewery:"Grayton Beer Company",
     location:"California, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Guinness Blonde American Lager",
@@ -282,10 +282,10 @@ const BEERMENU = [
     bitterness:"21 IBU",
     brewery:"St. James Gate(Guinness)",
     location:"Dublin, Ireland",
-    pint:"$6.00"
-    img:
-    alt:
-    pairing:
+    pint:"$6.00",
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Guinness Draught",
@@ -295,9 +295,9 @@ const BEERMENU = [
     brewery:"St. James Gate(Guinness)",
     location:"Dublin, Ireland",
     pint:"$5.50",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Harpoon Ufo Apricadabra",
@@ -307,21 +307,21 @@ const BEERMENU = [
     brewery:"Harpoon Brewery",
     location:"Massechusetts, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Heretic Chocolate Hazelnut Porter",
     type:"American Porter",
     ABV:"7.0% ABV",
-    bitterness:"33 IBU"
+    bitterness:"33 IBU",
     brewery:"Heretic Brewing Company",
     location:"California, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Idyll Hounds Ghost Crab Pilsna",
@@ -331,9 +331,9 @@ const BEERMENU = [
     brewery:"Idyll Hounds Brewery",
     location:"Florida, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"JP\'s Casper White Stout",
@@ -341,11 +341,11 @@ const BEERMENU = [
     ABV:"6.1% ABV",
     bitterness:"n/a",
     brewery:"James Page Brewery",
-    location:"Wisconsin, AL"
+    location:"Wisconsin, AL",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Lucky Town Hop Fiasco",
@@ -354,10 +354,10 @@ const BEERMENU = [
     bitterness:"n/a",
     brewery:"Lucky Town Brewing Company",
     location:"Mississipi, USA",
-    pint:"12oz - $6.00"
-    img:
-    alt:
-    pairing:
+    pint:"12oz - $6.00",
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Mark Twain Huck's Habanero Wheat",
@@ -367,9 +367,9 @@ const BEERMENU = [
     brewery:"Mark Twain Brewing Co.",
     location:"Missouri, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Moody Tongue Caramelized Chocolate Churros Baltic Porter",
@@ -379,9 +379,9 @@ const BEERMENU = [
     brewery:"Moody Tongue Brewing Company",
     location:"Illinois, USA",
     pint:"12oz - $6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Ommegang Rosetta",
@@ -391,9 +391,9 @@ const BEERMENU = [
     brewery:"Ommegang",
     location:"New York, USA",
     pint:"12oz - $6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Pensacola Bay Lighthouse Porter",
@@ -403,9 +403,9 @@ const BEERMENU = [
     brewery:"Pensacola Bay Brewery",
     location:"Florida, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Prairie Artisan Ales Phantasmagoria", 
@@ -414,10 +414,10 @@ const BEERMENU = [
     bitterness:"70 IBU",
     brewery:"Prairie Artisan Ales",
     location:"Oklahoma, USA",
-    pint:"12oz - $6.00"
-    img:
-    alt:
-    pairing:
+    pint:"12oz - $6.00",
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Samuel Adams Summer Ale",
@@ -427,9 +427,9 @@ const BEERMENU = [
     brewery:"Boston Beer Company(Samuel Adams",
     location:"Massachusetts, USA",
     pint:"$6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Second Self Mole Porter",
@@ -439,9 +439,9 @@ const BEERMENU = [
     brewery:"Second Self Beer",
     location:"Georgia, USA",
     pint:"$6.50",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Shock Top Belgian White",
@@ -451,9 +451,9 @@ const BEERMENU = [
     brewery:"Shock Top Brewing Co.",
     location:"Missouri, USA",
     pint:"$5.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Sierra Nevada Hop Bullet",
@@ -463,9 +463,9 @@ const BEERMENU = [
     brewery:"Sierra Nevada Brewing Company",
     location:"California, USA",
     pint:"12oz - $6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Smuttynose Rocky Road",
@@ -475,9 +475,9 @@ const BEERMENU = [
     brewery:"Smuttynose Brewing Company",
     location:"New Hampshire, USA",
     pint:"12oz - $6.00",
-    img:
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   },
   {
     name:"Stella Artois Lager",
@@ -487,88 +487,8 @@ const BEERMENU = [
     brewery:"Stella Artois",
     location:"Leuven, Belgium",
     pint:"12oz - $5.00",
-    img:
-    alt:
-    pairing:
-  },
-  {
-    name:"Stone Arrogant Bastard",
-    type:
-    ABV:
-    bitterness:
-    brewery:
-    location:
-    pint:
-    img;
-    alt:
-    pairing:
-  },
-  {
-    name:
-    type:
-    ABV:
-    bitterness:
-    brewery:
-    location:
-    pint:
-    img;
-    alt:
-    pairing:
-  },
-  {
-    name:
-    type:
-    ABV:
-    bitterness:
-    brewery:
-    location:
-    pint:
-    img;
-    alt:
-    pairing:
-  },
-  {
-    name:
-    type:
-    ABV:
-    bitterness:
-    brewery:
-    location:
-    pint:
-    img;
-    alt:
-    pairing:
-  },
-  {
-    name:
-    type:
-    ABV:
-    bitterness:
-    brewery:
-    location:
-    pint:
-    img;
-    alt:
-    pairing:
+    img:"",
+    alt:"",
+    pairing:""
   }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  }
+]

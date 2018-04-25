@@ -2,7 +2,7 @@
 function getDataFromServer() {}
 //render list
 function renderBeerList() {
-	const results = data.BEERMENU.map((items, index) => displayBeers(item);)
+	const results = BEERMENU.map((items, index) => displayBeers());
 }
 //display list to user
 function displayBeers() {
