@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 	<head>
 		<title>Sign-Up form</title>
@@ -17,13 +17,13 @@
 			<div class="form" role="form">
 				<form role="form">
 					<legacy>Sign-up Form</legacy>
-					<div class="form-label-input">
+					<div class="form-row">
 						<label for="user">Username</label>
 						<input type="text" id="user" placeholder="Walker-John" required>
 					</div>
 					<div class="form-row">
 						<label for="pass">Password</label>
-						<input type="text" id="pass" placeholder="****" required>
+						<input type="password" id="pass" placeholder="****" required>
 					</div>
 					<div class="form-row">
 						<label for="firstname">First Name</label>
@@ -31,14 +31,20 @@
 					</div>
 					<div class="form-row">
 						<label for="lastname">Last Name</label>
-						<input type="text"id="lastname" placeholder="Walker">
+						<input type="text" id="lastname" placeholder="Walker">
 					</div>
 					<div class="form-row">
-						<label for="email">Email</label>
-						<input type="text"id="email" placeholder="example@gmail.com" required>
+						<label for="email">Email</label><br>
+						<input type="email" id="email" placeholder="example@gmail.com" required>
 					</div>
+					<button type="submit" id="submit-btn">Sign-Up</button>
 				</form>
 			</div>
 		</main>
+	<script
+  		src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  		crossorigin="anonymous"></script>
+	<script src="sign-up.js"></script>
 	</body>
 </html>

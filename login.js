@@ -7,7 +7,7 @@ function eventListener() {
 		let password = $('#password-field').val();
 		$('#username-field').val('');
 		$('#password-field').val('');
-		sendData(username, password);
+		sendData(username, password, redirect);
 
 	})
 }
@@ -27,7 +27,9 @@ function sendData(username, password, callback) {
 
 	$.ajax(settings);
 }
-//redirect to beer.html
-function redirectBeerMenu() {
-	
+function redirect() {
+	console.log('redirected')
+	window.location = beer.html;
 }
+
+$(eventListener);
